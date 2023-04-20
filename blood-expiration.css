@@ -1,0 +1,380 @@
+a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+input {
+display: block;
+width: 100%;
+padding: 10px;
+border: none;
+border-bottom: 2px solid #333;
+font-size: 16px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+color: #333;
+background-color: transparent;
+transition: border-bottom-color 0.3s ease;
+}
+
+input:focus {
+outline: none;
+border-bottom-color: #666;
+}
+
+button {
+display: inline-block;
+padding: 10px 20px;
+border: none;
+background-color: #333;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 2px;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+background-color: #444;
+cursor: pointer;
+}
+
+button:focus {
+outline: none;
+}
+.blood-expiration-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+body{
+  background-color: #f1f1f1;
+}
+
+.blood-expiration-navbar-interactive {
+   width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 1em;
+  background-color: #dbdbdb;
+  border-width: 100px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  justify-content: space-between;
+
+}
+.blood-expiration-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.blood-expiration-image {
+  width: 100px;
+  object-fit: cover;
+}
+.blood-expiration-desktop-menu {
+  display: flex;
+}
+.blood-expiration-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.blood-expiration-navlink {
+  font-size: 25px;
+  top: 25px;
+  left: 125px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: blink;
+}
+.blood-expiration-navlink1 {
+  font-size: 25px;
+  top: 25px;
+  left: 125px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1rem;
+  text-decoration: blink;
+}
+.blood-expiration-navlink2 {
+  font-size: 25px;
+  margin-left: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: blink;
+}
+a {
+  color: #666;
+}
+.blood-expiration-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blood-expiration-register {
+  color: var(--dl-color-gray-white);
+  font-size: 20px;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.blood-expiration-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.blood-expiration-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.blood-expiration-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.blood-expiration-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.blood-expiration-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.blood-expiration-image1 {
+  height: 2rem;
+}
+.blood-expiration-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blood-expiration-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.blood-expiration-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.blood-expiration-text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.blood-expiration-text01 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.blood-expiration-text02 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.blood-expiration-text03 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.blood-expiration-text04 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.blood-expiration-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.blood-expiration-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.blood-expiration-icon-group {
+  display: flex;
+}
+.blood-expiration-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.blood-expiration-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.blood-expiration-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.blood-expiration-text05 {
+  top: 450px;
+  left: 81px;
+  position: absolute;
+  font-size: 25px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.blood-expiration-text06 {
+  top: 210px;
+  left: 81px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.blood-expiration-text07 {
+  top: 170px;
+  left: auto;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.blood-expiration-select {
+  top: 311px;
+  left:auto;
+  width: 9rem;
+  height: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
+.blood-expiration-button {
+  top: 370px;
+  margin-left:auto;
+  margin-right:auto;
+  color: var(--dl-color-gray-white);
+  position: absolute;
+  font-size: 20px;
+  background-color: var(--dl-color-gray-black);
+}
+.blood-expiration-button1 {
+  top: 636px;
+  left: 83px;
+  color: var(--dl-color-gray-white);
+  position: absolute;
+  font-size: 20px;
+  background-color: var(--dl-color-gray-black);
+}
+.blood-expiration-text08 {
+  top: 503px;
+  left: 600px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.blood-expiration-text09 {
+  top: 505px;
+  left: 821px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.blood-expiration-text10 {
+  top: 501px;
+  left: 337px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.blood-expiration-text11 {
+  top: 501px;
+  left: 337px;
+  position: absolute;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blood-expiration-text12 {
+  top: 503px;
+  left: 64px;
+  position: absolute;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blood-expiration-textinput {
+  top: 555px;
+  left: 57px;
+  width: 164px;
+  height: 40px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blood-expiration-textinput1 {
+  top: 555px;
+  left: 330px;
+  width: 164px;
+  height: 40px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blood-expiration-textinput2 {
+  top: 556px;
+  left: 577px;
+  width: 164px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
+  position: absolute;
+}
+.blood-expiration-textinput3 {
+  top: 560px;
+  left: 816px;
+  width: 164px;
+  height: 37px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
+@media(max-width: 767px) {
+  .blood-expiration-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .blood-expiration-desktop-menu {
+    display: none;
+  }
+  .blood-expiration-navlink1 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .blood-expiration-navlink2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .blood-expiration-btn-group {
+    display: none;
+  }
+  .blood-expiration-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .blood-expiration-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .blood-expiration-mobile-menu {
+    padding: 16px;
+  }
+}
+
+
+
+
